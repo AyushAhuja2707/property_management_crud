@@ -1,0 +1,53 @@
+<html>
+	<head>
+		<title>Property Management system</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"crossorigin="anonymous"></script>
+	</head>
+	<body class="d-flex flex-column h-100 container" style="background-image: url('https://images.pexels.com/photos/32870/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-repeat: no-repeat; background-size: cover;">
+		<header>
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			  <div class="container-fluid">
+				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+				  <div class="navbar-nav">
+					<a class="nav-link active" aria-current="page" href="#">Listing</a>
+					<a class="nav-link" href="add.html">Add New</a>
+				  </div>
+				</div>
+			  </div>
+			</nav>
+		</header>
+		
+		<table class="table table-striped table-hover text-center" style="margin-top: 20px; background-color: #fff; box-shadow: 0 4px 8px 0 black;">
+			<thead>
+				<th>Name</th>
+				<th>Phone no</th>
+				<th>Service(Rent/Sell)</th>
+                <th>Type</th>
+                <th>Location</th>
+                <th>Address</th>
+                <th>Size</th>
+                <th>Rooms</th>
+                <th>Cost(INR)</th>
+				<th>Action</th>
+			</thead>
+			<tbody id="tbody">
+				
+			</tbody>
+			<tfoot>
+				
+			</tfoot>
+		</table>
+		
+		<footer class="footer mt-auto py-3" style="opacity: 1;">
+		  <div class="container text-center">
+			<span class="text-muted">right &copy; 2021</span>
+		  </div>
+		</footer>
+	</body>
+	<script src="script.js"></script>
+	<script>
+		getData();
+	</script>
+</html>
